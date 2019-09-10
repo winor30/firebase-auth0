@@ -1,0 +1,33 @@
+{
+  "name": "firebase-auth0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "8"
+  },
+  "scripts": {
+    "deploy": "tsc --project tsconfig.firebase.json && npm run install-deps && firebase deploy",
+    "install-deps": "cp ./package.json dist && cp ./package-lock.json dist",
+    "test": "ts-node src/applicationApi.ts"
+  },
+  "author": "winor30",
+  "license": "ISC",
+  "dependencies": {
+    "auth0": "^2.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "firebase-admin": "^8.5.0",
+    "firebase-functions": "^3.2.0",
+    "jwks-rsa": "^1.6.0",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.0",
+    "typescript": "^3.6.2"
+  },
+  "devDependencies": {
+    "@types/auth0": "^2.9.21",
+    "@types/request": "^2.48.3",
+    "ts-node": "^8.3.0"
+  }
+}
