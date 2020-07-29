@@ -14,7 +14,7 @@
   "author": "winor30",
   "license": "ISC",
   "dependencies": {
-    "auth0": "^2.19.0",
+    "auth0": "^2.27.1",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "express-jwt": "^5.3.1",
