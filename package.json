@@ -21,7 +21,7 @@
     "firebase-admin": "^8.5.0",
     "firebase-functions": "^3.2.0",
     "jwks-rsa": "^1.6.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "request": "^2.88.0",
     "typescript": "^3.6.2"
   },
